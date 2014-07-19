@@ -1,0 +1,156 @@
+		/************************************************************************************************* 
+	* move (AS3), version 2.1                                                                              * 
+	*                                                                                                    *
+	*                                                                                                    *
+	*                                                                                                    *
+	* <pre>                                                                                              *
+	*  ____              _         _      ____                                                           *
+	* |  __| _____  ____| |_      | | __ |__  |                                                          *
+	* | |   |  _  ||  _||  _| __  | |/ /    | |                                                          *
+	* | |   | |_| || |  | |  |__| |   <     | |                                                          *
+	* | |__ |_| |_||_|  |_|       |_|\_\  __| |                                                          *
+	* |____|                             |____|                                                          *
+	*                                                                                                    *
+	* </pre>                                                                                             *
+	*                                                                                                    *
+	* @class    :   DrawText                                                                             *
+	* @author   :   Greg.N :: Artkabis                                                                   *
+	* @version  :   2.1 - class DrawText (AS3)                                                           *
+	* @since    :   22-07-2009 20:31                                                                     *
+	*                                                                                                    *
+	******************************************************************************************************
+	******************************************************************************************************			 
+	
+	
+	/*****	//_________________________________________________________________???--Constructor
+		* Paramètre de la classe DrawText :
+		 * @param	text    	  :: Le movieClip utilisant les fonctionnalités de la classe
+		 * @param   color         :: Couleur du texte (au format #000000)
+		 * @param   size          :: taille du texte valeur entiere.
+		 * @param   font          :: Police de caractere du contenu
+		 * @param	autosize      :: Taille automatique, prend en charge quatre modes:L:LEFT | R:RIGHT | C:CENTER | N:NONE
+		 * @param   style         :: Style du contenu, prend en compte : italic | oblique | normal.
+		 * @param   gras          :: Graisse de la police, prend en en compte: bold | heavy | normal
+		 * @param   x             :: axe cible de l'objet en x
+		 * @param   y             :: axe cible de l'objet en y
+		 * @param   selectable    :: Parmétre de selection: prend en compte de paramétres: true | false
+		*****/
+
+	
+	UtiSisation: Classe DrawText:
+	
+													DrawText({
+																text        :String,
+																color       :uint,
+																size        :int,
+																font        :String,
+																autosize    :Sting,
+																gras        :Boolean,
+																style       :String,
+																x           :int,
+																y           :int,
+																selectable  :Boolean
+															});
+	________________________________________________________
+																
+				Parametres de la classe DrawText							  			
+	--------------------------------------------------------
+	Gestion des modes(paramètres):
+										selectable:Boolean ('s)
+														default:false													
+										autosize:String
+													L::LEFT
+													R::RIGHT
+													C::CENTER
+													N::NONE
+										style:String
+													I::ITALIC
+													O::OBLIQUE
+													N::NORMAL
+										gras:Boolean
+													true::BOLD
+													false::NORMAL
+										size:int
+												_______
+													
+
+Indications:
+------------
+			Les proprietes son difuses via le panneau de sortie et
+			chacune d'entre elle est facultatif.Tout parametre
+			non défini, se verra attribuer une valeur par defaut
+			
+			Sachez aussi, que le nombre de parametre est est lui aussi facultatif.
+			Vous avez la possibilite de les gerer en mode lecture
+			et ecriture>> getter setter. voici comment vous pouvez y acceder.
+	
+Dans cette exemple un objet texte est cree, les parametres initiaux sont contenus
+dans une variable de type Object:
+
+var params:Object = new Object();
+								params.text='Contenu textuel";
+								params.size=55;
+								params.color='#FF0000';
+								params.font='arial';
+								params.autosize='L';
+								params.gras=true;
+								params.style='I';
+								params.x=0;
+								params.y=100;
+								params.selectable=true;
+								
+
+L'interet de la mise en place de cette methode ascenseur, vient du fait qu'il est possible
+De reecrir n'importe quel parametre et ceci, meme si celui-ci a ete declare au par avant.
+(sa lecture est elle aussi possible), voici comment vous pouvez y acceder:
+										
+										
+
+	<Creation de l'objet t (enfant de la classe DrawText)>
+	__________________________________________________
+	
+var t:DrawText = new DrawText(params);
+
+
+t.contenu='Nouveau texte';
+t.color= '#FF9900';
+t.size = 40;
+t.font='Circus';
+t.x_=10;
+t.y_=100;
+t.autosize='R';
+t.gras = false;
+t.style = 'I';
+t.selectable = false;
+this.addChild(t);
+
+On vois ici que les parametres sont accessible depuis l'ojet principal et qu'il
+suffit de preciser le nom de la propriete a modifier.
+
+
+
+La presentation touche a sa fin.Mais avant ceci, je vous demanderais simplement
+de m'avertir si vous rencontrer des bugs ou tout probleme qui serait lie à cette classe, ceci me permeyttra 
+de cibler les erreurs pour ameliorer la classe regulierement.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Cette classe doit rester dans le cadre d'une utilisation personnel et  non profesionnel.
+Ayant passe de nombreuses heures, je vous demanderais simplement de respecter l'ensemble
+des elements propose dans ce framwork.
+
+Bon developpement a tous !!!!
+
+*****************************************************************************************************
+*																									*
+*										22-07-2009 20:41 											*
+*																									*
+*****************************************************************************************************
+               _          _ 
+ ______  ____ | |__      |_| __
+|_|__|_||_|__||_|__|  __ |_|/ /
+|_|  |_||_|   |_|    |__||_|\_\
+|_|  |_||_|   |_|        |_| \_\
+
+
+
