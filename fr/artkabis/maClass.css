@@ -1,0 +1,73 @@
+          <div class="accordion">
+            <dl>
+             <dt>
+                <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger">Notre formule « meubles »</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
+					<ol>
+						<li>Nous nous chargeons de la protection de vos meubles et de vos effets personnels, au moyen de couvertures ou de papier bulle</li>
+						<li>Nous effectuons le chargement, le déchargement et la mise en place (montage et démontage) de votre mobilier.</li>
+						<p> Il reste à votre charge :</p>
+						<o>
+						<ul>la déconnexion et la connexion de vos appareils électriques (machine à laver, lave-vaisselle, hi-fi, informatique…),</ul>
+						<ul>le décrochage et l’accrochage de vos lustres et de vos tringles à rideaux…,</ul>
+						<ul>l’emballage et le déballage de vos effets personnels, fragiles ou non.</ul>
+						</ol>
+					</ol>
+				</dd>
+              <dt>
+                <a href="#accordion1" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger">Notre formule « économique »</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
+                <ol>
+				 	<li>Nous emballons vos meubles au moyen de couvertures et de BullKraft (papier bulle et kraft).</li>
+				 	<li>Nous chargeons, déchargeons et installons (montage et démontage) votre mobilier.</li>
+				 	<li>Nous accrochons vos vêtements sur une penderie portative.</li>
+				 	<li>Nous vous fournissons des cartons, du papier bulle et de l’adhésif : vous devez aussi emballer et déballer vous-même vos effets personnels.</li>
+					<li> Vous devez débrancher et rebrancher votre électroménager (sèche-linge, four…) et vos équipements électriques. </li>
+					<li>À vous également de décrocher et raccrocher vos lustres et tringles à rideaux.</li>
+				</ol>
+              </dd>
+
+              <dt>
+                <a href="#accordion2" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">Notre formule "standard"</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
+              	<ol>
+	              	<li>Nous protégeons votre mobilier à l’aide de couvertures et de papier bulle.</li>
+	              	<li>Nous nous chargeons du transport de vos meubles (chargement et déchargement) ; nous pouvons les installer dans les pièces dédiées (démontage puis montage), si nécessaire.</li>
+	              	<li>Nous emballons et déballons vos objets fragiles ; il ne vous reste plus qu’à vous occuper de vos effets non fragiles : nous mettons tout le matériel nécessaire à votre disposition (cartons, adhésif, papier bulle).</li>
+	              	<li>Vous assumez également le décrochage et l’accrochage de vos lustres et tringles à rideaux, ainsi que les débranchements et les branchements de votre électroménager et de votre matériel informatique.</li>
+              	</ol>
+              </dd>
+              
+              <dt>
+                <a href="#accordion3" aria-expanded="false" aria-controls="accordion4" class="accordion-title accordionTitle js-accordionTrigger">Formule "luxe"</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion4" aria-hidden="true">
+              	<ol>
+					<li>Nous réalisons le démontage, la protection, le transport, le montage et la mise en place de vos meubles.</li>
+					<li>Nous emballons et déballons vos objets fragiles.</li>
+					<li>Nous emballons également vos effets non fragiles ; vous n’avez plus qu’à les déballer.</li>
+					<li>À vous de débrancher et brancher votre électroménager ou vos équipements électriques ; vous vous chargez également de vos lustres et tringles à rideaux.</li>
+				</ol>
+              </dd>
+              <dt>
+
+			 <dt>
+                <a href="#accordion3" aria-expanded="false" aria-controls="accordion5" class="accordion-title accordionTitle js-accordionTrigger">Formule "luxe plus"</a>
+              </dt>
+              <dd class="accordion-content accordionItem is-collapsed" id="accordion5" aria-hidden="true">
+              <p>Nous nous occupons de toutes les étapes de votre déménagement, de A à Z :</p>
+              	<ol>
+					<ul>démontage, protection (papier bulle, couvertures), montage et mise en place de vos meubles, </ul>
+					<ul>emballage de vos affaires, fragiles ou non, </ul>
+					<ul>déballage de vos objets fragiles,</ul>
+					<ul>déconnexion et connexion de vos appareils électroniques et électriques (machine à laver, four, ordinateurs…),</ul>
+					<ul>décrochage et raccrochage de vos lustres et tringles à rideaux.</ul>
+				</ol>
+              </dd>
+              <dt>
+
+            </dl>
+          </div>
