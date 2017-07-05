@@ -2,8 +2,11 @@
  /********---------------------- Gregory NICOLLE By ARTKABIS-------------------------***********/
   /******--------------------------_______________________------------------------------------*/
    /******************************************************************************************/
-   /*
+   
+   /** PROD OPTI *
    <link rel="stylesheet" id="initCSS" href="https://rawcdn.githack.com/artkabis/Framework_AS3/master/initCSS.css" type="text/css" media="all">
+   ** DEV >> 
+   <link rel="stylesheet" id="initCSS" href="https://raw.githack.com/artkabis/Framework_AS3/master/initCSS.css" type="text/css" media="all">
    */
    /*********************** --------------RESET----------------- ***************************/
     .noMargin,.resetImg,.resetImg figure div {margin: 0!important;}
@@ -132,17 +135,28 @@
     /* ROTATION + */
     .rot5{-webkit-transform:rotate(5deg);transform:rotate(5deg)}
     .rot15{-webkit-transform:rotate(15deg);transform:rotate(15deg)}
+    .rotY15{-webkit-transform:rotateY(15deg);transform:rotateY(15deg)}
     .rot25{-webkit-transform:rotate(25deg);transform:rotate(25deg)}
+    .rotY25{-webkit-transform:rotateY(25deg);transform:rotateY(25deg)}
     .rot45{-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+    .rotY45{-webkit-transform:rotateY(45deg);transform:rotateY(45deg)}
     .rot90{-webkit-transform:rotate(90deg);transform:rotate(90deg)}
+    .rotY90{-webkit-transform:rotateY(90deg);transform:rotateY(90deg)}
     .rot180{-webkit-transform:rotate(180deg);transform:rotate(180deg)}
+    .rotY180{-webkit-transform:rotateY(180deg);transform:rotateY(180deg)}
     /* ROTATION - */
     .rot-5{-webkit-transform:rotate(-5deg);transform:rotate(-5deg)}
+    .rotY-5{-webkit-transform:rotateY(-5deg);transform:rotateY(-5deg)}
     .rot-15{-webkit-transform:rotate(-15deg);transform:rotate(-15deg)}
+    .rotY-15{-webkit-transform:rotateY(-15deg);transform:rotateY(-15deg)}
     .rot-25{-webkit-transform:rotate(-25deg);transform:rotate(-25deg)}
+    .rotY-25{-webkit-transform:rotateY(-25deg);transform:rotateY(-25deg)}
     .rot-45{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}
+    .rotY-45{-webkit-transform:rotateY(-45deg);transform:rotateY(-45deg)}
     .rot-90{-webkit-transform:rotate(-90deg);transform:rotate(-90deg)}
+    .rotY-90{-webkit-transform:rotateY(-90deg);transform:rotateY(-90deg)}
     .rot-180{-webkit-transform:rotate(-180deg);transform:rotate(-180deg)}
+    .rotY-180{-webkit-transform:rotateY(-180deg);transform:rotateY(-180deg)}
 
     /**** FLEX ORDER ****/
     .fo-0 {display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-ordinal-group: 1;-ms-flex-order: 0;order: 0;}
