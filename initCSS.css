@@ -4,9 +4,9 @@
    /******************************************************************************************/
    
    /** PROD OPTI V 1.03 *
-   <link rel="stylesheet" id="initCSS" href="https://rawcdn.githack.com/artkabis/Framework_AS3/0a067e00b6c3b4d50956c532351cda8f87f696aa/initCSS.css" type="text/css" media="all">
+   <link rel="stylesheet" id="initCSS" href="https://rawcdn.githack.com/artkabis/Framework_AS3/f2f5c59fb7d7142389b2482a63f8d59361af71b3/initCSS.css" type="text/css" media="all">
    ** DEV >> 
-   <link rel="stylesheet" id="initCSS" href="https://raw.githack.com/artkabis/Framework_AS3/master/initCSS.css" type="text/css" media="all">
+   <link rel="stylesheet" id="initCSS" href="https://raw.githack.com/artkabis/Framework_AS3/f2f5c59fb7d7142389b2482a63f8d59361af71b3/initCSS.css" type="text/css" media="all">
    */
    /*********************** --------------RESET----------------- ***************************/
     .noMargin,.resetImg,.resetImg figure div {margin: 0!important;}
@@ -1863,13 +1863,13 @@
     .plr10-sm, .plr10-inner-sm > .vc_column-inner{padding-left:10px!important;padding-right:10px!important;} 
    
     /* PADDING 0px */
-    .p0-md, .p0-inner-md > .vc_column-inner{padding:0px!important;}
-    .pt0-md, .pt0-inner-md > .vc_column-inner{padding-top:0px!important;}
-    .pb0-md, .pb0-inner-md > .vc_column-inner{padding-bottom:0px!important;}
-    .ptb0-md, .ptb0-inner-md > .vc_column-inner{padding-top:0px!important;padding-bottom:0px!important;}
-    .pl0-md, .pl0-inner-md > .vc_column-inner{padding-left:0px!important;}
-    .pr0-md, .pr0-inner-md > .vc_column-inner{padding-right:0px!important;}
-    .plr0-md, .plr0-inner-md > .vc_column-inner{padding-left:0px!important;padding-right:0px!important;}
+    .p0-sm, .p0-inner-sm > .vc_column-inner{padding:0px!important;}
+    .pt0-sm, .pt0-inner-sm > .vc_column-inner{padding-top:0px!important;}
+    .pb0-sm, .pb0-inner-sm > .vc_column-inner{padding-bottom:0px!important;}
+    .ptb0-sm, .ptb0-inner-sm > .vc_column-inner{padding-top:0px!important;padding-bottom:0px!important;}
+    .pl0-sm, .pl0-inner-sm > .vc_column-inner{padding-left:0px!important;}
+    .pr0-sm, .pr0-inner-sm > .vc_column-inner{padding-right:0px!important;}
+    .plr0-sm, .plr0-inner-sm > .vc_column-inner{padding-left:0px!important;padding-right:0px!important;}
  
     /**** MARGIN ****/
     .noMargin-sm, .noMargin-inner-sm div{margin:0!important;}
